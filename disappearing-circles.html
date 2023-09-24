@@ -1,0 +1,78 @@
+<html>
+    <head>
+        
+        <title>Javascript Practice - Disappearing Circles</title>
+        
+        <style type="text/css">
+        
+            .circle {
+                
+                width:300px;
+                height:300px;
+                border-radius: 50%;
+                float:left;
+                margin-right:10px;
+                
+            }
+            
+            #green-circle {
+                
+                background-color: green;
+                
+            }
+            
+            #blue-circle {
+                
+                background-color: blue;
+                
+            }
+            
+            #yellow-circle {
+                
+                background-color: yellow;
+                
+            }
+        
+        </style>
+    
+    </head>
+
+    <body class="vsc-initialized">
+        
+        <div class="circle" id="green-circle"></div>
+        
+        <div class="circle" id="blue-circle"></div>
+        
+        <div class="circle" id="yellow-circle"></div>
+        
+        
+        <script async="" src="chrome-extension://fhamhppabjaafimidmelnmpfangjdnhj/analytics.js"></script><script type="text/javascript">
+            
+            document.getElementById("green-circle").onclick = function() {
+                              
+                document.getElementById("green-circle").style.display = "none";
+                
+            }
+            
+            document.getElementById("yellow-circle").onclick = function() {
+                              
+                document.getElementById("yellow-circle").style.display = "none";
+                
+            }
+            
+            document.getElementById("blue-circle").onclick = function() {
+                              
+                document.getElementById("blue-circle").style.display = "none";
+                
+            }
+            
+            
+            
+            
+            
+            
+        </script>
+        
+    
+</body>
+</html>
